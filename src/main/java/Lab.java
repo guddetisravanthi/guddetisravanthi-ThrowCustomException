@@ -1,3 +1,4 @@
+
 public class Lab {
 
     /**
@@ -15,8 +16,7 @@ public class Lab {
      * hand, are using a try/catch block to catch the exception thrown by this method.
      */
     public void throwCustomException() throws CustomException{
-        throw new CustomException("This is custom Exception!");
-
+        throw new CustomException();
     }
 
 }
